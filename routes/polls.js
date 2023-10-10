@@ -2,6 +2,7 @@ const express = require('express');
 const connection = require('../connection');
 const router = express.Router();
 
+// create poll
 router.post('/create', (req, res, next) => {
     let polls = req.body;
     query = "insert into polls (questions,Options,user_data,poll_analytics) values(?,?,?,?)";
@@ -14,6 +15,7 @@ router.post('/create', (req, res, next) => {
     });
 });
 
+// read poll 
 router.get('/read', (req, res, next) => {
     var query = "select *from polls";
     connection.query(query, (query, (err, results) => {
@@ -26,6 +28,7 @@ router.get('/read', (req, res, next) => {
     }));
 });
 
+// update a specific poll
 router.patch('/update/:id', (req, res, next) => {
     const id = req.params.id;
     let polls = req.body;
@@ -43,6 +46,7 @@ router.patch('/update/:id', (req, res, next) => {
     });
 });
 
+// delete a specific poll
 router.delete('/delete/:id', (req, res, next) => {
     const id = req.params.id;
     var query = "delete from polls where id=?";

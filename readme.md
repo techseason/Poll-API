@@ -30,7 +30,6 @@ git clone https://github.com/yourusername/poll-application-api.git
 
 2. **Install Dependencies:**
 ```cmd
-cd poll-application-api
 npm install
 ```
 
@@ -59,6 +58,7 @@ use sample data-
 }
 
 ```
+
 
 
 ## Postman Collection
