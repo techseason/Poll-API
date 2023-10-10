@@ -25,7 +25,7 @@ To set up and run the project locally, follow these steps:
 
 1. **Clone the Repository:**
 ```cmd
-git clone https://github.com/yourusername/poll-application-api.git
+git clone https://github.com/techseason/Poll-API.git
 ```
 
 2. **Install Dependencies:**
@@ -63,6 +63,6 @@ use sample data-
 
 ## Postman Collection
 
-For testing the API, import the Postman collection that includes requests for all API endpoints. You can access the Postman collection here: [Poll Application API Postman Collection](https://www.postman.com/naruchan07/workspace/my-work/collection/27277026-a9717b72-02e6-46c0-b7d9-ede5a5263708?action=share&creator=27277026).
+For testing the API, click the Postman collection link that includes requests for all API endpoints. You can access the Postman collection here: [Poll Application API Postman Collection](https://www.postman.com/naruchan07/workspace/my-work/collection/27277026-a9717b72-02e6-46c0-b7d9-ede5a5263708?action=share&creator=27277026).
 
 
